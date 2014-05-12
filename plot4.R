@@ -9,7 +9,7 @@ par(mfrow=c(2,2))
 
         plot(plotdata$Voltage, type= "l", xlab="datetime", ylab="Voltage")
 
-        plot(plotdata$Sub_metering_1, type= "l", xlab="", ylab="Energy Submetering")
+        plot(plotdata$Sub_metering_1, type= "l", xlab="", ylab="Energy Sub metering")
         lines(plotdata$Sub_metering_2, type="l", col="red")
         lines(plotdata$Sub_metering_3,type="l", col="blue")
         legend("topright", lty=1, col= c("black", "Red","blue"),legend= c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
